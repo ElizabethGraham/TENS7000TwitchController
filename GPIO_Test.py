@@ -8,6 +8,7 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM) # GPION Numbers instead of board numbers.
 GPIO.setup(23, GPIO.OUT) # GPIO Set Output Mode
 GPIO.output(23, GPIO.LOW) # LOW PIN AKA CANCEL SHOCK
+
 pygame.init()
 BLACK = (0, 0, 0)
 WIDTH = 100
