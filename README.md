@@ -3,7 +3,7 @@
 
 
 
-GPIO_Test.py is a test script meant to confirm the circuit is connected and functioning properly. If everything is set up properly, the 'G' key should activate GPIO 23, sending a shock through the tens unit for 1 second.
+GPIO_Test.py is a test script meant to confirm the circuit is connected and functioning properly. If everything is set up properly, the 'G' key should activate GPIO 23, sending a shock through the TENS unit for 1 second.
 
 GPIO_Test_Shock30Sec.py is a script meant to activate GPIO 23 for 1 second every 30 seconds.
 
