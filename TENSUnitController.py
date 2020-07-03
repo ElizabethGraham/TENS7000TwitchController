@@ -3,10 +3,10 @@ import RPi.GPIO as GPIO
 import time
 
 HOST = "irc.twitch.tv"
-PORT = 6667
-NICK = "tens7000"
-PASS = 'oauth:od0og7k7tycso4lon84tgnp3ukzdir'
-CHAN = "#grahamrl"
+PORT = # "PORT GOES HERE"
+NICK = #"USERNAME" # Update for your needs
+PASS = #"OATH KEY GOES HERE'
+CHAN = #"#grahamrl" Update for your needs
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM) # GPION Numbers instead of board numbers.
@@ -45,7 +45,7 @@ while True:
         print(username + ": " + message)
         if "SHOCK" in message.upper() and username == "tens7000":
             send_message("Message recieved " + username + "\r\n")
-            print('you sadistic fuck')
+            print('you sadist')
             GPIO.output(23, GPIO.HIGH) # HIGH PIN AKA Shock Pin
             time.sleep(1)
             GPIO.output(23, GPIO.LOW) # LOW PIN AKA CANCEL SHOCK
