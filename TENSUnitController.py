@@ -3,10 +3,10 @@ import RPi.GPIO as GPIO
 import time
 
 HOST = "irc.twitch.tv"
-PORT = # "PORT GOES HERE"
-NICK = #"USERNAME" # Update for your needs
-PASS = #"OATH KEY GOES HERE'
-CHAN = #"#grahamrl" Update for your needs
+PORT = "" # "PORT GOES HERE"
+NICK = "" #"USERNAME" # Update for your needs
+PASS = "" #"OATH KEY GOES HERE'
+CHAN = "" # "#IRC CHANNEL GOHERE"
 
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM) # GPION Numbers instead of board numbers.
