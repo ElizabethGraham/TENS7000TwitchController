@@ -1,4 +1,3 @@
-# GPIO 23
 import RPi.GPIO as GPIO
 import pygame, sys
 from pygame.locals import *
